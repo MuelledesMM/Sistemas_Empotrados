@@ -1,0 +1,12 @@
+Segunda Sesión:
+
+-Daniel: Ha recopilado y guardado en excel la información de las 5 ofertas de trabajo.
+-Manuel: Ha recopilado y guardado en excel la información de las 5 ofertas de trabajo, hecho un repositorio de github y comenzado a escribir la oferta de trabajo.
+-Adrián: Ha recopilado y guardado en excel la información de las 5 ofertas de trabajo y ha realizado el recuento de palabras clave entre todos las ofertas.
+-Martín: Ha recopilado y guardado en excel la información de las 5 ofertas de trabajo.
+
+Miembros:
+Manuel Muélledes Mateos
+Adrian Gea Garcia 
+Martin Camara Moral
+Daniel Burgos Espinar
