@@ -7,3 +7,7 @@ Dia 2 Practica2
 
 Daniel Burgos Espinar: ha realizado los apartados 1a,1b,1c de la tarea 1 y el apartado 3a de la tarea 3
 Manuel Muélledes Mateos: ha realizado los apartados 1d,1e y ha realizado la mitad de la tarea 2
+
+Dia 3 Practica2
+Daniel Burgos Espinar: ha preguntado al profesor sobre varias cuestiones de la Tarea 3 y la ha finalizado excepto el apartado d) el cual es el RETO JEDI, y comenzo a buscar informacion para resolverla
+Manuel Muelledes Mateos: ha instalado en su ordenador el QEMU y ha comenzado a realizar la Parte 2
