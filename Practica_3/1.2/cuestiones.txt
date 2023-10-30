@@ -1,11 +1,8 @@
 1. Explique qué hace el código que se añade a continuación.
 
-  El codigo primeramente crea 3 vectores de tamaño n (A,B,C) y los inicializa de manera que los valores de A y B siempre
-  son los mismos y crecen en 1 cada uno por cada iteración. Tras esto se utiliza el constructor parallel para crear un 
-  número de hilos igual a los disponibles, y toma como parametros compartidos entre los hilos a,b,c,nthreads y chunks, y
-  como privados de cada hilo a i y tid. 
-  Cuando el hilo ya esta disponible imprime en pantalla un mensaje que esta disponible, y simultaneamente al resto realiza 
-  un bucle for inicializando c con los valores de suma de A y B.
+  El codigo primeramente crea 3 vectores de tamaño n (A,B,C) y los inicializa de manera que los valores de A y B siempre son los mismos y crecen en 1 cada uno por cada iteración, tambien se incializa la variable chunks que posteriormente se utilizara en la orden for para dividir asi el for en los chunks indicadods. Tras esto se utiliza el constructor parallel para crear un número de hilos igual a los disponibles, y toma como parametros compartidos entre los hilos a,b,c,nthreads y chunks, y como privados de cada hilo a i y tid.
+
+  Cuando el hilo ya esta disponible imprime en pantalla un mensaje que esta disponible, y simultaneamente al resto de hilos realiza un bucle for inicializando c con los valores de suma de A y B.
 
 2. Delimite las distintas regiones OpenMP en las que se está expresando paralelismo.
 
