@@ -1,0 +1,5 @@
+Primer dia 30/10/2023
+
+Daniel Burgos: Ha revisado todo el material complementario de OpenMP y ha comenzado a hacer la tarea 1.1.
+
+Manuel Muélledes: Ha revisado todo el material complementario de OpenMP y ha comenzado a hacer la tarea 1.2, acabando el apartado 1 .
