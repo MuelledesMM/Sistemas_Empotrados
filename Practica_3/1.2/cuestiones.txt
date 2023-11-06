@@ -13,4 +13,6 @@ sus argumentos? ¿Qué función tiene la variable chunk en el código. ¿A qué 
 
 4. ¿Qué función tiene el modificador de OpenMP dynamic en el código?
 
+  El modificador dynamic, que se encuentra dentro de schedule en el bucle for, dentro del codigo hace que cada hebra ejecute una parte de las iteraciones, a continuación pide otra parte de las iteraciones hasta que no quedan trozos en su distribución.
+
 5. Investigue qué pasa si no declara como privadas las variables i y tid.
