@@ -6,6 +6,8 @@
 
 2. Delimite las distintas regiones OpenMP en las que se está expresando paralelismo.
 
+  Cada hebra realiza la inicialización que comienza en la linea 15 avisa de su comienzo y despues cada hebra realiza el bucle 'for'.
+
 3. Explique con detalle qué hace el modificador de OpenMP schedule. ¿Cuáles pueden ser
 sus argumentos? ¿Qué función tiene la variable chunk en el código. ¿A qué afecta?
 
