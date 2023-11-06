@@ -11,6 +11,10 @@
 3. Explique con detalle qué hace el modificador de OpenMP schedule. ¿Cuáles pueden ser
 sus argumentos? ¿Qué función tiene la variable chunk en el código. ¿A qué afecta?
 
+Schedule se encarga de la configuracion a la hora de distrubuir el trabajo compartido entre las diversas hebras.Este consta de dos parametros:el primero puede ser(static,dynamicy guieded) estos son diversos planificadores de trabajo que se utilizan segun el caso correspondiente.
+El segundo parametro es chunk size, que puede estar o no. En el codigo de la practica, este chunk size viene determinado por la variable chunk 
+donde,chunk  indica el tamaño de los bloques en los q se dividiran las iteraciones
+
 4. ¿Qué función tiene el modificador de OpenMP dynamic en el código?
 
   El planificador de bucles dynamic, que se encuentra dentro de schedule en el bucle for, dentro del codigo hace que cada hebra ejecute una parte de las iteraciones, a continuación pide otra parte de las iteraciones hasta que no quedan trozos en su distribución, esto se utiliza si se tiene cantidad de trabajo variable.
